@@ -1,0 +1,29 @@
+body {
+	background-color: #DCDCDC;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+h1 {
+	border-radius: 8em;
+	font-size: 30px;
+	text-align: center;
+	background:linear-gradient(to right, #4682B4, #8B008B);
+	padding: 15px;
+
+}
+
+.glavnoe {
+	border-radius: 8em;
+	background-color:#A9A9A9;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#knopka11 {
+	text-align: center;
+}

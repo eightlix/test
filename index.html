@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
 	<title>Теорема пифагора</title>
 
@@ -21,10 +22,14 @@
 </head>
 <body>
 
-	<h2 style="size: 16px;">Введите первый катет<input type="text" id="PerviyKatet"></h2>
-	<h2 style="size: 16px;">Введите второй катет<input type="text" id="VtoroyKatet"></h2>
+	<h1>Теорема пифагора</h1>
 
-	<button onclick="vicheslit()">Вычислить</button>
+	<p class="glavnoe">Введите первый катет <input type="text" id="PerviyKatet"><p>
+	<p class="glavnoe">Введите второй катет <input type="text" id="VtoroyKatet"></p>
+
+	<div id="knopka11">
+		<button onclick="vicheslit()" style="background-color: #A9A9A9; border-radius: 8em; padding: 10px; text-align: center; font-size: 15px; border:0px; font-size: 20px;">Вычислить</button>
+	</div>	
 
 </body>
 </html>
