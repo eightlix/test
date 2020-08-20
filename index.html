@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Теорема пифагора</title>
+
+	<script type="text/javascript">
+
+		var o;
+		var oo;
+
+		function vicheslit() {
+			o = document.getElementById("PerviyKatet").value;
+			oo = document.getElementById("VtoroyKatet").value;
+			var x = o*o+oo*oo;
+			alert(Math.sqrt(x));
+		}
+
+	</script>
+
+</head>
+<body>
+
+	<h2 style="size: 16px;">Введите первый катет<input type="text" id="PerviyKatet"></h2>
+	<h2 style="size: 16px;">Введите второй катет<input type="text" id="VtoroyKatet"></h2>
+
+	<button onclick="vicheslit()">Вычислить</button>
+
+</body>
+</html>
