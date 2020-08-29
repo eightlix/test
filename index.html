@@ -5,24 +5,15 @@
 	<meta charset="utf-8">
 	<title>Теорема пифагора</title>
 
-	<script type="text/javascript">
-
-		var o;
-		var oo;
-
-		function vicheslit() {
-			o = document.getElementById("PerviyKatet").value;
-			oo = document.getElementById("VtoroyKatet").value;
-			var x = o*o+oo*oo;
-			alert(Math.sqrt(x));
-		}
-
-	</script>
+<script type="text/javascript" src="scripts.js"></script>
 
 </head>
 <body>
 
 	<h1>Теорема пифагора</h1>
+	<h2>Введите ноль в то окно, значение которого нужно найти</h2>
+
+	<p id="gipot">Введите гипотенузу<input type="text" id="gip"></p>
 
 	<p class="glavnoe">Введите первый катет <input type="text" id="PerviyKatet"><p>
 	<p class="glavnoe">Введите второй катет <input type="text" id="VtoroyKatet"></p>

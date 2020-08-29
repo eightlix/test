@@ -4,7 +4,7 @@ body {
 	margin-left: 200px;
 }
 
-h1 {
+h1, h2 {
 	border-radius: 8em;
 	font-size: 30px;
 	text-align: center;
@@ -27,3 +27,17 @@ h1 {
 #knopka11 {
 	text-align: center;
 }
+
+#gipot {
+	border-radius: 8em;
+	background-color:#A9A9A9;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 50px;
+	margin-bottom: 50px
+}
+
